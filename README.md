@@ -1,75 +1,69 @@
-# React + TypeScript + Vite
+# ConectaPET
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Site do ConectaPET — evento organizado em parceria pelos grupos **Conectadas** e **PET-Informática**.
 
-Currently, two official plugins are available:
+Feito com [React](https://react.dev/) + [TypeScript](https://www.typescriptlang.org/) via [Vite](https://vite.dev/), estilizado com [Tailwind CSS](https://tailwindcss.com/).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Pré-requisitos
 
-## React Compiler
+- **Node.js** `>= 20.19` ou `>= 22.12` (recomendado usar a versão LTS mais recente — [nodejs.org](https://nodejs.org/))
+- **npm** (já vem junto com o Node.js)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Para conferir as versões instaladas:
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
+```bash
+node -v
+npm -v
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Instalação
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Na pasta do projeto, instale as dependências:
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm install
+```
 
+Esse comando lê o `package.json`, baixa todas as bibliotecas que o projeto usa (React, Vite, Tailwind, ESLint, etc.) e coloca tudo na pasta `node_modules/`. Só precisa rodar de novo quando as dependências do `package.json` mudarem (ex: depois de um `git pull` que alterou o `package.json`/`package-lock.json`).
+
+## Rodando em desenvolvimento
+
+```bash
+npm run dev
+```
+
+Sobe um servidor local (por padrão em `http://localhost:5173`) com hot-reload: qualquer alteração salva em `src/` aparece na página automaticamente, sem precisar recarregar a mão. Pare o servidor com `Ctrl+C`.
+
+## Build de produção
+
+```bash
+npm run build
+```
+
+Roda a checagem de tipos do TypeScript (`tsc -b`) e gera os arquivos finais otimizados (HTML/CSS/JS) na pasta `dist/`, prontos para deploy em qualquer hospedagem de arquivos estáticos.
+
+Para conferir localmente como fica esse build antes de publicar:
+
+```bash
+npm run preview
+```
+
+## Lint
+
+```bash
+npm run lint
+```
+
+Roda o ESLint para checar problemas de código (tipagem, regras do React/hooks, etc.) em todo o projeto.
+
+## Estrutura do projeto
+
+```
+public/             arquivos estáticos servidos como estão (logos, fontes, textura de fundo)
+src/
+  components/        componentes React da página (Header, Hero, Footer, seções, Home)
+    ui/               componentes de UI reutilizáveis (ex: Button)
+  styles/            tokens de cor/fonte (tokens.css) e @font-face (fonts.css)
+  App.tsx            componente raiz
+  main.tsx           ponto de entrada da aplicação
 ```
