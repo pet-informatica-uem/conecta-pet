@@ -1,0 +1,17 @@
+@theme {
+  /* paleta de cores */
+  --color-blue: #3878C2;
+  --color-purple: #7C55A3;
+  --color-magenta: #BF3284;
+  --color-cream: #FDFBEE;
+  --color-olive: #BFCC94;
+  --color-ink: #191919;
+
+  /* variantes */
+  --color-purple-deep: #894E9D;
+  --color-blue-deep: #407EB7;
+
+  /* fontes, usar como font-heading / font-body */
+  --font-heading: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-body: 'Lato', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+}
