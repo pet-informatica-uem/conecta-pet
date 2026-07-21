@@ -8,7 +8,7 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 
 const variantClasses: Record<ButtonVariant, string> = {
   solid: 'bg-purple-deep text-cream border-transparent',
-  outline: 'bg-transparent text-purple border-purple',
+  outline: 'bg-transparent',
 }
 
 export function Button({ variant = 'solid', className = '', ...props }: ButtonProps) {

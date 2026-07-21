@@ -1,8 +1,32 @@
 export function Footer() {
   return (
-    <footer className="flex h-40 w-full items-center justify-center border-t border-ink/10 font-heading text-xl font-bold text-ink">
-      {/* TODO*/}
-      Footer
+    <footer id="contato" className="flex flex-col md:flex-row w-full justify-center items-center gap-8 md:gap-0 border-t border-light-olive text-ink p-8 md:p-16">
+        <div className="hidden md:flex flex-1 items-center justify-center md:justify-start gap-2">
+          <img src="/logotipo.svg" alt="Logo" className="w-14 h-14 md:w-18 md:h-18"/>
+        </div>
+
+        <div className="text-center">
+          <p>Entre em contato conosco:</p>
+          <div className="flex gap-8 items-center justify-center my-2">
+            <a href="mailto:conectapetuem@gmail.com" aria-label="Enviar e-mail para ConectaPET UEM" target="_blank" rel="noopener noreferrer">
+              <img src="/email.svg" alt="Email" className="w-12 h-12 md:w-15 md:h-15"/>
+            </a>
+            <a href="https://www.instagram.com/conectapetuem/" aria-label="Acessar o Instagram do ConectaPET UEM" target="_blank" rel="noopener noreferrer">
+              <img src="/insta.svg" alt="Instagram" className="w-12 h-12 md:w-15 md:h-15"/>
+            </a>
+          </div>
+          <p>Desenvolvido com &lt;3 pela comissão do ConectaPET</p>
+        </div>
+
+        <div className="hidden md:flex flex-1 items-center justify-center md:justify-end gap-8">
+          <a href="https://www.instagram.com/conectadasuem/" aria-label="Acessar o site do Conectadas" target="_blank" rel="noopener noreferrer">
+            <img src="/conectadas_logo.svg" alt="Logo do Conectadas" className="w-14 h-14 md:w-18 md:h-18"/>
+          </a>
+
+          <a href="https://www.instagram.com/petinfouem/" aria-label="Acessar o site do PET-Informática" target="_blank" rel="noopener noreferrer">
+            <img src="/pet_logo.svg" alt="Logo do PET Informática" className="w-14 h-14 md:w-18 md:h-18"/>
+          </a>
+        </div>
     </footer>
   )
 }
