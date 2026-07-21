@@ -35,7 +35,7 @@ export function Header() {
 
   return (
     <header
-      className={`fixed top-0 left-0 z-50 mb-24 flex w-full items-center border-b border-ink/10 bg-cream px-4 py-4 md:p-8 font-heading uppercase text-base md:text-xl font-bold text-ink transition-transform duration-300 ${
+      className={`fixed top-0 left-0 z-50 mb-24 px-4 flex w-full items-center border-b border-ink/10 bg-cream py-4 md:p-8 font-heading uppercase text-base md:text-xl font-bold text-ink transition-transform duration-300 ${
         visible ? "translate-y-0" : "-translate-y-full"
       }`}
     >
