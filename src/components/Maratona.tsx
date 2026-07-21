@@ -14,9 +14,12 @@ export function Maratona() {
             <p className="font-body font-normal text-sm md:text-base lg:text-xl xl:text-2xl text-justify">A Maratona de Programação do ConectaPET será uma competição presencial em equipes de três integrantes. Durante a atividade, os participantes deverão resolver desafios de lógica, algoritmos e programação dentro do tempo estabelecido, colocando em prática seus conhecimentos e o trabalho em equipe.</p>
           </div>
 
-          <div className="flex flex-col sm:flex-row gap-3 md:gap-8 lg:gap-12 xl:gap-24 items-center justify-center">
-            <Button variant="outline" className="px-8 md:px-12 lg:px-16 xl:px-24 text-purple border-purple">LEIA O EDITAL</Button>
-            <Button variant="solid">INSCREVA-SE NA MARATONA</Button>
+          <div className="flex flex-col items-center gap-4 md:gap-6">
+            <span className="font-heading text-sm font-bold uppercase tracking-wide text-purple">Em breve</span>
+            <div className="flex flex-col sm:flex-row gap-3 md:gap-8 lg:gap-12 xl:gap-24 items-center justify-center">
+              <Button disabled variant="outline" className="px-8 md:px-12 lg:px-16 xl:px-24 text-purple border-purple disabled:opacity-40 disabled:cursor-not-allowed">LEIA O EDITAL</Button>
+              <Button disabled variant="solid" className="disabled:opacity-40 disabled:cursor-not-allowed">INSCREVA-SE NA MARATONA</Button>
+            </div>
           </div>
         </div>
       </section>
