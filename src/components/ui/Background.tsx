@@ -4,7 +4,7 @@ export function PageBackground() {
       <img
         src="/mancha.svg"
         alt=""
-        className="absolute inset-0 h-full w-full object-cover object-top"
+        className="absolute inset-0 h-auto w-full object-cover object-top"
       />
       {/* <img
         src="/logotipo_background.png"
