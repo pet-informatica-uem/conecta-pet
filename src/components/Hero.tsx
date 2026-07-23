@@ -4,7 +4,7 @@ import { Separator } from './ui/Separator'
 export function Hero() {
   return (
     <>
-      <section id="hero" className="flex h-[calc(100svh-10rem-44px)] flex-col items-center justify-center gap-32 px-6 pt-20 pb-16 text-center md:h-[calc(100svh-11rem-44px)] md:gap-16 2xl:gap-24">
+      <section id="hero" className="flex min-h-[calc(100svh-10rem-44px)] flex-col items-center justify-center gap-12 px-6 pt-20 pb-16 text-center md:min-h-[calc(100svh-11rem-44px)] md:gap-16 2xl:gap-24">
         <div className="flex w-full max-w-3xl flex-col gap-2 md:gap-4">
           <img src="/hero_logo.svg" alt="ConectaPET" className="w-full" />
           <p className="text-left font-heading text-xl md:text-3xl font-black text-ink pl-2">16/09 • 19/09</p>

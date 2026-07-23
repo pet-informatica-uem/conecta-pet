@@ -3,6 +3,7 @@ import { Footer } from './components/Footer'
 import { Hero } from './components/Hero'
 import { SobreEvento } from './components/SobreEvento'
 import { Maratona } from './components/Maratona'
+import { ApresentacaoTrabalhos } from './components/ApresentacaoTrabalhos'
 import { Cronograma } from './components/Cronograma'
 import { PageBackground } from './components/ui/Background'
 
@@ -15,6 +16,7 @@ export default function Home() {
         <Hero />
         <SobreEvento />
         <Maratona />
+        <ApresentacaoTrabalhos />
         <Cronograma />
       </main>
       <Footer />

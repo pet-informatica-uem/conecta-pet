@@ -8,11 +8,11 @@ const textClass = "font-body font-normal text-sm md:text-lg lg:text-xl xl:text-2
 export function SobreEvento() {
   return (
     <>
-      <section id="sobre-evento" className="min-h-[60svh] md:min-h-[90svh] p-4 md:p-10 lg:p-14 justify-center border-y border-ink/10 font-heading text-2xl font-bold text-ink">
+      <section id="sobre-evento" className="scroll-mt-24 md:scroll-mt-36 min-h-[60svh] md:min-h-[90svh] p-4 md:p-10 lg:p-14 justify-center border-y border-ink/10 font-heading text-2xl font-bold text-ink">
         <SectionTitle>O que é o Conecta PET?</SectionTitle>
         <div className="flex flex-col px-0 md:px-6 lg:px-10 xl:px-20 2xl:px-64 pt-6 md:pt-12 lg:pt-14 gap-y-6 md:gap-y-10 lg:gap-y-12">
           <div className={rowClass}>
-            <img src="/placeholder_azul.png" className={imageClass} />
+            <img src="/placeholder_azul.png" alt="" className={imageClass} />
             <p className={textClass}>
               O <strong className="text-purple">ConectaPET</strong> é um evento organizado em
               parceria pelos grupos <strong className="text-magenta">Conectadas</strong> e{" "}
@@ -31,7 +31,7 @@ export function SobreEvento() {
               ConectaPET busca valorizar a produção acadêmica, estimular o aprendizado colaborativo
               e fortalecer a comunidade do Departamento de Informática.
             </p>
-            <img src="/placeholder_rosa.png" className={imageClass} />
+            <img src="/placeholder_rosa.png" alt="" className={imageClass} />
           </div>
         </div>
       </section>

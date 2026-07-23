@@ -5,7 +5,7 @@ import { SectionTitle } from "./ui/SectionTitle";
 export function Maratona() {
   return (
     <>
-      <section id="maratona" className="min-h-[60svh] lg:min-h-[90svh] p-4 md:p-10 lg:p-14 justify-center border-y border-ink/10 text-ink">
+      <section id="maratona" className="scroll-mt-24 md:scroll-mt-36 min-h-[60svh] lg:min-h-[90svh] p-4 md:p-10 lg:p-14 justify-center border-y border-ink/10 text-ink">
         <SectionTitle>Maratona <br />de Programação</SectionTitle>
 
         <div className="flex flex-col px-0 md:px-8 lg:px-12 xl:px-28 2xl:px-64 pt-6 md:pt-12 lg:pt-16 gap-y-10 md:gap-y-16 lg:gap-y-32">
