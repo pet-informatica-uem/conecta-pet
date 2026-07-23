@@ -69,10 +69,11 @@ export function Header() {
           ))}
         </nav>
 
-        <div className="flex flex-1 items-center justify-end gap-3">
+        <div className="flex flex-1 items-center justify-end gap-2 md:gap-3">
           <Button
             variant="outline"
-            className="border-ink px-4 py-2 text-xs text-ink hover:bg-ink/10 md:px-7 md:py-3.5 md:text-sm"
+            style={{ transitionTimingFunction: "cubic-bezier(0.4, 0, 0.2, 1)", transitionDuration: "350ms" }}
+            className="border-ink px-3 py-2 text-xs whitespace-nowrap text-ink hover:bg-ink/10 md:px-7 md:py-3.5 md:text-sm"
           >
             Inscrever-se
           </Button>
@@ -83,20 +84,23 @@ export function Header() {
             aria-expanded={menuOpen}
             aria-controls="mobile-nav"
             onClick={() => setMenuOpen((open) => !open)}
-            className="flex h-10 w-10 flex-col items-center justify-center gap-1.5 xl:hidden"
+            className="flex h-10 w-10 shrink-0 flex-col items-center justify-center gap-1.5 xl:hidden"
           >
             <span
-              className={`block h-0.5 w-6 bg-ink transition-transform duration-200 ${
+              style={{ transitionTimingFunction: "cubic-bezier(0.4, 0, 0.2, 1)", transitionDuration: "350ms" }}
+              className={`block h-0.5 w-6 bg-ink transition-transform ${
                 menuOpen ? "translate-y-2 rotate-45" : ""
               }`}
             />
             <span
-              className={`block h-0.5 w-6 bg-ink transition-opacity duration-200 ${
+              style={{ transitionTimingFunction: "cubic-bezier(0.4, 0, 0.2, 1)", transitionDuration: "350ms" }}
+              className={`block h-0.5 w-6 bg-ink transition-opacity ${
                 menuOpen ? "opacity-0" : "opacity-100"
               }`}
             />
             <span
-              className={`block h-0.5 w-6 bg-ink transition-transform duration-200 ${
+              style={{ transitionTimingFunction: "cubic-bezier(0.4, 0, 0.2, 1)", transitionDuration: "350ms" }}
+              className={`block h-0.5 w-6 bg-ink transition-transform ${
                 menuOpen ? "-translate-y-2 -rotate-45" : ""
               }`}
             />
@@ -110,12 +114,15 @@ export function Header() {
           menuOpen ? "max-h-96" : "max-h-0 border-t-0"
         }`}
       >
-        {NAV_LINKS.map((link) => (
+        {NAV_LINKS.map((link, index) => (
           <a
             key={link.href}
             href={link.href}
             onClick={() => setMenuOpen(false)}
-            className="w-full px-4 py-4 text-center transition-opacity hover:opacity-75"
+            style={{ transitionDelay: menuOpen ? `${index * 50}ms` : "0ms" }}
+            className={`w-full px-4 py-4 text-center transition-all duration-300 ease-out hover:opacity-75 ${
+              menuOpen ? "translate-y-0 opacity-100" : "-translate-y-2 opacity-0"
+            }`}
           >
             {link.label}
           </a>
