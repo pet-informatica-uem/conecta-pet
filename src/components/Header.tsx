@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Button } from "./ui/Button";
+import { scrollToSection } from "../lib/scroll";
 
 function useScrollDirection() {
   const [visible, setVisible] = useState(true);
@@ -63,7 +64,15 @@ export function Header() {
 
         <nav className="hidden items-center justify-center gap-10 xl:flex 2xl:gap-12">
           {NAV_LINKS.map((link) => (
-            <a key={link.href} href={link.href} className="transition-opacity hover:opacity-75">
+            <a
+              key={link.href}
+              href={link.href}
+              onClick={(e) => {
+                e.preventDefault();
+                scrollToSection(link.href);
+              }}
+              className="transition-opacity hover:opacity-75"
+            >
               {link.label}
             </a>
           ))}
@@ -71,9 +80,10 @@ export function Header() {
 
         <div className="flex flex-1 items-center justify-end gap-2 md:gap-3">
           <Button
+            disabled
             variant="outline"
             style={{ transitionTimingFunction: "cubic-bezier(0.4, 0, 0.2, 1)", transitionDuration: "350ms" }}
-            className="border-ink px-3 py-2 text-xs whitespace-nowrap text-ink hover:bg-ink/10 md:px-7 md:py-3.5 md:text-sm"
+            className="border-ink px-3 py-2 text-xs whitespace-nowrap text-ink hover:bg-ink/10 disabled:cursor-not-allowed disabled:opacity-40 disabled:hover:bg-transparent md:px-7 md:py-3.5 md:text-sm"
           >
             Inscrever-se
           </Button>
@@ -118,7 +128,11 @@ export function Header() {
           <a
             key={link.href}
             href={link.href}
-            onClick={() => setMenuOpen(false)}
+            onClick={(e) => {
+              e.preventDefault();
+              setMenuOpen(false);
+              scrollToSection(link.href);
+            }}
             style={{ transitionDelay: menuOpen ? `${index * 50}ms` : "0ms" }}
             className={`w-full px-4 py-4 text-center transition-all duration-300 ease-out hover:opacity-75 ${
               menuOpen ? "translate-y-0 opacity-100" : "-translate-y-2 opacity-0"

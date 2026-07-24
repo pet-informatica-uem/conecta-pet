@@ -22,9 +22,17 @@ export function ApresentacaoTrabalhos() {
           </div>
 
           <Reveal className="flex flex-col items-center gap-4 md:gap-6">
-            <span className="font-heading text-sm font-bold uppercase tracking-wide text-purple animate-soft-pulse">Em breve</span>
+            <span className="font-heading text-sm font-bold uppercase tracking-wide text-purple animate-soft-pulse">Submissões em breve</span>
             <div className="flex flex-col sm:flex-row gap-3 md:gap-8 lg:gap-12 xl:gap-24 items-center justify-center">
-              <Button disabled variant="outline" className="px-8 md:px-12 lg:px-16 xl:px-24 text-purple border-purple disabled:opacity-40 disabled:cursor-not-allowed">LEIA O EDITAL</Button>
+              <Button
+                href="https://docs.google.com/document/d/1S3M8XKWakRC0qiXyRsNV8Ve3rRzkdJQl/edit?usp=sharing&ouid=112062102356446715824&rtpof=true&sd=true"
+                target="_blank"
+                rel="noopener noreferrer"
+                variant="outline"
+                className="px-8 md:px-12 lg:px-16 xl:px-24 text-purple border-purple"
+              >
+                LEIA O EDITAL
+              </Button>
               <Button disabled variant="solid" className="disabled:opacity-40 disabled:cursor-not-allowed">SUBMETA SEU TRABALHO</Button>
             </div>
           </Reveal>

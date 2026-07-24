@@ -1,6 +1,7 @@
 import { Button } from './ui/Button'
 import { Separator } from './ui/Separator'
 import { Reveal } from './ui/Reveal'
+import { scrollToSection } from '../lib/scroll'
 
 export function Hero() {
   return (
@@ -17,16 +18,20 @@ export function Hero() {
               UM EVENTO PARA NOS CONECTAR
             </h1>
             <p className="font-body md:text-lg text-center">
-              O futuro não surge por acaso. Ele nasce da curiosidade, da pesquisa e da coragem de
-              explorar o desconhecido.
+              O futuro não surge por acaso. Ele nasce da curiosidade, da pesquisa e da coragem de explorar o desconhecido.
             </p>
           </Reveal>
 
-          <Reveal delay={300}>
-            <Button variant="solid"
-              onClick={() => document.getElementById('sobre-evento')?.scrollIntoView({ behavior: 'smooth' })}
-            >
+          <Reveal delay={300} className="flex flex-col gap-4 sm:flex-row">
+            <Button variant="solid" onClick={() => scrollToSection('sobre-evento')}>
               Saiba Mais
+            </Button>
+            <Button
+              disabled
+              variant="outline"
+              className="text-ink border-ink hover:bg-ink/10 disabled:cursor-not-allowed disabled:opacity-40 disabled:hover:bg-transparent"
+            >
+              Inscreva-se
             </Button>
           </Reveal>
         </div>
