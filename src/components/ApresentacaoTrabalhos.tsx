@@ -14,7 +14,7 @@ export function ApresentacaoTrabalhos() {
         <div className="flex flex-col px-0 md:px-8 lg:px-12 xl:px-28 2xl:px-64 pt-6 md:pt-12 lg:pt-16 gap-y-10 md:gap-y-16 lg:gap-y-32">
           <div className="flex flex-col lg:flex-row-reverse gap-8 md:gap-6 lg:gap-10 xl:gap-24 items-center justify-center">
             <Reveal direction="right">
-              <img src="/placeholder_maratona.png" alt="Apresentação de Trabalhos" className="w-56 h-auto max-w-none shrink-0 md:w-96 lg:w-116"/>
+              <img src="/apresentacao-de-trabalhos.png" alt="Apresentação de Trabalhos" className="w-56 h-auto max-w-none shrink-0 md:w-96 lg:w-116"/>
             </Reveal>
             <Reveal direction="left" delay={100}>
               <p className="font-body font-normal text-sm md:text-base lg:text-xl xl:text-2xl text-justify">A Apresentação de Trabalhos do ConectaPET é um espaço dedicado à divulgação de pesquisas e projetos desenvolvidos por estudantes. Os participantes poderão submeter trabalhos científicos e apresentá-los à comunidade acadêmica, compartilhando conhecimento e experiências com colegas e professores.</p>
