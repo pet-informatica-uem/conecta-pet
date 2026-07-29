@@ -15,8 +15,8 @@ export default function Home() {
       <main>
         <Hero />
         <SobreEvento />
-        <Maratona />
         <ApresentacaoTrabalhos />
+        <Maratona />
         <Cronograma />
       </main>
       <Footer />
