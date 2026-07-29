@@ -22,7 +22,6 @@ export function ApresentacaoTrabalhos() {
           </div>
 
           <Reveal className="flex flex-col items-center gap-4 md:gap-6">
-            <span className="font-heading text-sm font-bold uppercase tracking-wide text-purple animate-soft-pulse">Submissões em breve</span>
             <div className="flex flex-col sm:flex-row gap-3 md:gap-8 lg:gap-12 xl:gap-24 items-center justify-center">
               <Button
                 href="https://docs.google.com/document/d/1S3M8XKWakRC0qiXyRsNV8Ve3rRzkdJQl/edit?usp=sharing&ouid=112062102356446715824&rtpof=true&sd=true"
@@ -33,7 +32,9 @@ export function ApresentacaoTrabalhos() {
               >
                 LEIA O EDITAL
               </Button>
-              <Button disabled variant="solid" className="disabled:opacity-40 disabled:cursor-not-allowed">SUBMETA SEU TRABALHO</Button>
+              <Button
+                href="https://forms.gle/SH9BVZ2F6HFr8QH99"
+                variant="solid" className="">SUBMETA SEU TRABALHO</Button>
             </div>
           </Reveal>
         </div>
