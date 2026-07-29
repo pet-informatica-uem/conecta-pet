@@ -34,7 +34,12 @@ export function ApresentacaoTrabalhos() {
               </Button>
               <Button
                 href="https://forms.gle/SH9BVZ2F6HFr8QH99"
-                variant="solid" className="">SUBMETA SEU TRABALHO</Button>
+                target="_blank"
+                rel="noopener noreferrer"
+                variant="solid"
+                >
+                SUBMETA SEU TRABALHO
+              </Button>
             </div>
           </Reveal>
         </div>
