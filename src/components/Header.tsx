@@ -33,8 +33,8 @@ function useScrollDirection() {
 
 const NAV_LINKS = [
   { href: "#sobre-evento", label: "sobre" },
-  { href: "#maratona", label: "maratona" },
   { href: "#trabalhos", label: "trabalhos" },
+  { href: "#maratona", label: "maratona" },
   { href: "#cronograma", label: "cronograma" },
   { href: "#contato", label: "contato" },
 ];
