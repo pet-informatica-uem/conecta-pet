@@ -27,7 +27,9 @@ export function Hero() {
               Saiba Mais
             </Button>
             <Button
-              disabled
+              href="https://forms.gle/QsPQFd8F7d1H6tzn7"
+              target="_blank"
+              rel="noopener noreferrer"
               variant="outline"
               className="text-ink border-ink hover:bg-ink/10 disabled:cursor-not-allowed disabled:opacity-40 disabled:hover:bg-transparent"
             >
