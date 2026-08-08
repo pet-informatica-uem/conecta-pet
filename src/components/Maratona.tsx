@@ -22,7 +22,6 @@ export function Maratona() {
           </div>
 
           <Reveal className="flex flex-col items-center gap-4 md:gap-6">
-            <span className="font-heading text-sm font-bold uppercase tracking-wide text-purple animate-soft-pulse">Inscrições em breve</span>
             <div className="flex flex-col sm:flex-row gap-3 md:gap-8 lg:gap-12 xl:gap-24 items-center justify-center">
               <Button
                 href="https://docs.google.com/document/d/1OMc-C67T-2_aMTDQ7LfFCwIDKxE5mdCBuj6IKwL2sHQ/edit?usp=sharing"
@@ -33,7 +32,15 @@ export function Maratona() {
               >
                 LEIA O EDITAL
               </Button>
-              <Button disabled variant="solid" className="disabled:opacity-40 disabled:cursor-not-allowed">INSCREVA-SE NA MARATONA</Button>
+              <Button 
+                href="https://forms.gle/b7YDVE5rCy8JVpde9"
+                target="_blank"
+                rel="noopener noreferrer"
+                variant="solid" 
+                className="disabled:opacity-40 disabled:cursor-not-allowed"
+              >
+                INSCREVA-SE NA MARATONA
+              </Button>
             </div>
           </Reveal>
         </div>
