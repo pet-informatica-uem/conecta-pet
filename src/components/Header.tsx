@@ -80,7 +80,9 @@ export function Header() {
 
         <div className="flex flex-1 items-center justify-end gap-2 md:gap-3">
           <Button
-            disabled
+            href="https://forms.gle/QsPQFd8F7d1H6tzn7"
+            target="_blank"
+            rel="noopener noreferrer"
             variant="outline"
             style={{ transitionTimingFunction: "cubic-bezier(0.4, 0, 0.2, 1)", transitionDuration: "350ms" }}
             className="border-ink px-3 py-2 text-xs whitespace-nowrap text-ink hover:bg-ink/10 disabled:cursor-not-allowed disabled:opacity-40 disabled:hover:bg-transparent md:px-7 md:py-3.5 md:text-sm"
