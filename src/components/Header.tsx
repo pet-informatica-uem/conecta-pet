@@ -36,6 +36,7 @@ const NAV_LINKS = [
   { href: "#trabalhos", label: "trabalhos" },
   { href: "#maratona", label: "maratona" },
   { href: "#cronograma", label: "cronograma" },
+  { href: "#patrocinadores", label: "patrocinadores" },
   { href: "#contato", label: "contato" },
 ];
 

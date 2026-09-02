@@ -5,6 +5,7 @@ import { SobreEvento } from './components/SobreEvento'
 import { Maratona } from './components/Maratona'
 import { ApresentacaoTrabalhos } from './components/ApresentacaoTrabalhos'
 import { Cronograma } from './components/Cronograma'
+import { Patrocinadores } from './components/Patrocinadores'
 import { PageBackground } from './components/ui/Background'
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
         <ApresentacaoTrabalhos />
         <Maratona />
         <Cronograma />
+        <Patrocinadores />
       </main>
       <Footer />
     </div>

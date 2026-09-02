@@ -1,0 +1,68 @@
+[
+  {
+    "data": "17/09",
+    "atividades": [
+      {
+        "titulo": "Carreira Acadêmica: Trajetória e Oportunidades",
+        "horario": "13h30 às 15h",
+        "palestrante": "Profª Drª Luciana Andréia Fondazzi Martimiano",
+        "descricao": "A carreira acadêmica é composta por diferentes possibilidades de formação, atuação e desenvolvimento profissional. Neste encontro, vamos conversar sobre os caminhos que fazem parte dessa trajetória, passando por experiências de pesquisa, ensino, extensão, pós-graduação e outras oportunidades relacionadas à universidade. É uma oportunidade para conhecer diferentes perspectivas, entender as opções que existem na carreira acadêmica e refletir sobre os caminhos que podem fazer sentido para cada trajetória.",
+        "bio": "Professora Associada da Universidade Estadual de Maringá, é graduada em Ciência da Computação pela UEM e possui mestrado e doutorado pela USP. Foi tutora do PET-Informática e coordenadora do Projeto Conectadas, parceiro do programa Meninas Digitais. Atua principalmente em Segurança Computacional e Redes de Computadores, com pesquisas sobre IoT, proteção e privacidade de dados.",
+        "local": "Auditório do CTC (Centro de Tecnologia) — Bloco C67",
+        "cor": "magenta"
+      },
+      {
+        "titulo": "Ensino e aprendizagem na Era da Inteligência Artificial: Desafios e Oportunidades",
+        "horario": "15h30 às 17h",
+        "palestrante": "Profº Dr Marco Aurélio Lopes Barbosa",
+        "descricao": "A Inteligência Artificial tornou-se parte do nosso cotidiano e vem transformando também a forma como ensinamos e aprendemos computação. Mas o que essas mudanças significam para a educação em nossa área? O que ganhamos e o que podemos perder quando a ferramenta resolve em segundos aquilo que antes levava horas? Nesta palestra, exploraremos as possibilidades que a IA oferece, os desafios que ela traz e as novas perspectivas para professores e estudantes da área. Trata-se de um convite para refletir, trocar ideias e descobrir como utilizar essas ferramentas de forma criativa, crítica e consciente.",
+        "bio": "Professor Adjunto do Departamento de Informática da UEM, é doutor pela USP e mestre e bacharel em Ciência da Computação pela UEM. Fez parte do PET-Informática nos anos de 2000 e 2001. Atua principalmente com estruturas de dados, otimização combinatória, algoritmos evolutivos e algoritmos de busca local.",
+        "local": "Auditório do CTC (Centro de Tecnologia) — Bloco C67",
+        "cor": "blue"
+      },
+      {
+        "titulo": "Evolução da Comunicação Humana por uma Perspectiva Técnico-Científica",
+        "horario": "19h30 às 21h",
+        "palestrante": "Prof° Dr Alisson Renan Svaigen",
+        "descricao": "Iniciando nos primeiros gestos e expressões corporais, passando pelos sinais de fumaça e desembarcando nas grandes redes de comunicação contemporâneas, esta palestra apresenta uma perspectiva técnico-científica — mas também descontraída e provocativa — sobre como a evolução do ser humano e da sociedade é moldada pela comunicação. Ao final, será discutida a questão: existe limite para a comunicação humana?",
+        "bio": "Professor Adjunto do Departamento de Informática da UEM, é doutor pela UFMG e realizou um período de estudos na University of Ottawa, no Canadá. Fez parte do PET-Informática de 2012 a 2016 e teve sua tese reconhecida entre as três melhores do Brasil em sua área em 2024. Atua principalmente com Redes de Computadores, Internet dos Drones, Segurança e Privacidade.",
+        "local": "Auditório do CTC (Centro de Tecnologia) — Bloco C67",
+        "cor": "magenta"
+      }
+    ]
+  },
+  {
+    "data": "18/09",
+    "atividades": [
+      {
+        "titulo": "Apresentação de trabalhos",
+        "descricao": "Espaço dedicado à apresentação dos trabalhos submetidos ao ConectaPET. Os detalhes das sessões serão divulgados em breve.",
+        "cor": "magenta"
+      },
+      {
+        "titulo": "Celebração dos 35 anos do PET-Informática",
+        "horario": "18h30 às 19h30",
+        "descricao": "Cerimônia comemorativa dos 35 anos do PET-Informática.",
+        "local": "C67 — Centro de Tecnologia",
+        "cor": "blue"
+      }
+    ]
+  },
+  {
+    "data": "19/09",
+    "atividades": [
+      {
+        "titulo": "Aquecimento da Maratona de Programação",
+        "horario": "08h30 às 11h30",
+        "descricao": "Período de aquecimento e preparação das equipes para a competição.",
+        "cor": "magenta"
+      },
+      {
+        "titulo": "Competição oficial da Maratona de Programação",
+        "horario": "13h30 às 17h30",
+        "descricao": "Etapa oficial da Maratona de Programação do ConectaPET.",
+        "cor": "blue"
+      }
+    ]
+  }
+]
