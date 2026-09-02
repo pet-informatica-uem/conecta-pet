@@ -105,7 +105,7 @@ export function Cronograma() {
                           </p>
                         )}
                         <hr className="my-4 border-light-olive" />
-                        <p className="font-body text-lg font-light leading-snug tracking-wide text-justify">
+                        <p className="font-body text-sm font-normal text-justify md:text-base lg:text-xl xl:text-2xl">
                           {atividade.descricao}
                         </p>
                         {atividade.local && (
