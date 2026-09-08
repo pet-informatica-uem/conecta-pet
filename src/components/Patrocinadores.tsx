@@ -20,7 +20,7 @@ const patrocinadores: Patrocinador[] = [
   },
   {
     nome: "Sebo Multimania",
-    logo: "/patrocinadores/sebo-multimania.svg"
+    logo: "/patrocinadores/sebo-multimania.svg",
     site: "https://www.instagram.com/sebomultimania/"
   }
 ];
