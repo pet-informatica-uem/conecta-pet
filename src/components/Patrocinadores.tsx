@@ -11,11 +11,18 @@ const patrocinadores: Patrocinador[] = [
   {
     nome: "Brownie do Dê",
     logo: "/patrocinadores/brownie-do-de.svg",
+    site: "https://www.instagram.com/browniedodeoficial/"
   },
   {
     nome: "Marvin English Pub",
     logo: "/patrocinadores/marvin-english-pub.svg",
+    site: "https://www.instagram.com/marvinenglishpub/"
   },
+  {
+    nome: "Sebo Multimania",
+    logo: "/patrocinadores/sebo-multimania.svg"
+    site: "https://www.instagram.com/sebomultimania/"
+  }
 ];
 
 export function Patrocinadores() {
