@@ -35,9 +35,285 @@
     "data": "18/09",
     "atividades": [
       {
-        "titulo": "Apresentação de trabalhos",
-        "descricao": "Espaço dedicado à apresentação dos trabalhos submetidos ao ConectaPET. Os detalhes das sessões serão divulgados em breve.",
-        "cor": "magenta"
+        "titulo": "Apresentação de Trabalhos Científicos",
+        "horario": "09h20 às 15h30",
+        "descricao": "Espaço dedicado à apresentação de trabalhos desenvolvidos por estudantes em diferentes áreas da Computação. Ao longo do dia, os participantes poderão conhecer pesquisas, projetos e experiências acadêmicas realizadas no Departamento de Informática.",
+        "local": "Auditório do CTC (Centro de Tecnologia) — Bloco C67",
+        "cor": "magenta",
+        "sessoes": [
+          {
+            "titulo": "Manhã",
+            "horario": "09h20 às 11h20",
+            "itens": [
+              {
+                "tipo": "abertura",
+                "horario": "09h20",
+                "titulo": "Abertura e apresentação do evento"
+              },
+              {
+                "tipo": "apresentacao",
+                "horario": "09h30 às 09h40",
+                "titulo": "Controle Remoto Universal Arduino",
+                "autores": [
+                  "Guilherme José Monteiro Meirelles"
+                ],
+                "orientadores": [
+                  "Elvio João Leonardo"
+                ]
+              },
+              {
+                "tipo": "apresentacao",
+                "horario": "09h40 às 09h50",
+                "titulo": "Análise da Evolução e do Comportamento de Códigos Maliciosos do Tipo Trojan",
+                "autores": [
+                  "Caio Garcia"
+                ],
+                "orientadores": [
+                  "Luciana Andréia Fondazzi Martimiano"
+                ]
+              },
+              {
+                "tipo": "apresentacao",
+                "horario": "09h50 às 10h00",
+                "titulo": "Análise da Evolução e do Comportamento de Códigos Maliciosos do Tipo Ransomware",
+                "autores": [
+                  "Fabricio Raposo da Silva Bonifacio"
+                ],
+                "orientadores": [
+                  "Luciana Andréia Fondazzi Martimiano"
+                ]
+              },
+              {
+                "tipo": "apresentacao",
+                "horario": "10h00 às 10h10",
+                "titulo": "Códigos Corretores de Erros: Da Matemática à Implementação",
+                "autores": [
+                  "Jamily Gonçalves de Sales Souza"
+                ],
+                "orientadores": [
+                  "Yerko Contreras Rojas"
+                ]
+              },
+              {
+                "tipo": "apresentacao",
+                "horario": "10h10 às 10h20",
+                "titulo": "Análise Preditiva da Evasão no Ensino Superior: Um Estudo Comparativo entre Instituições e Modalidades",
+                "autores": [
+                  "Carlos Eduardo de Paixão Bravin",
+                  "Eduarda Barragan da Silva"
+                ],
+                "orientadores": [
+                  "Valéria Delisandra Feltrim"
+                ]
+              },
+              {
+                "tipo": "intervalo",
+                "horario": "10h20 às 10h30",
+                "titulo": "Intervalo"
+              },
+              {
+                "tipo": "apresentacao",
+                "horario": "10h30 às 10h40",
+                "titulo": "Entre o Ensino e a Invasão: Análise de Requisitos de Segurança Cibernética em Plataformas Digitais Educacionais",
+                "autores": [
+                  "Caio César Jordão Paccagnella"
+                ],
+                "orientadores": [
+                  "Alisson Renan Svaigen",
+                  "Luciana Andréia Fondazzi Martimiano"
+                ]
+              },
+              {
+                "tipo": "apresentacao",
+                "horario": "10h40 às 10h50",
+                "titulo": "Detecção Automatizada de Trypanosoma cruzi em Imagens de Gota Espessa por Visão Computacional e Aprendizado de Máquina",
+                "autores": [
+                  "Nuno Miguel Mendonca Abilio"
+                ],
+                "orientadores": [
+                  "Yandre Maldonado e Gomes da Costa",
+                  "Thelma Elita Colanzi Lopes"
+                ]
+              },
+              {
+                "tipo": "apresentacao",
+                "horario": "10h50 às 11h00",
+                "titulo": "Análise sobre o Ingresso e a Permanência de Mulheres na TI na UEM: 2017 a 2025",
+                "autores": [
+                  "Julia de Araújo Pires",
+                  "Maria Eduarda de Melo Policante",
+                  "Isadora Dantas Bruchmam",
+                  "Verônica Manami Kitamura"
+                ],
+                "orientadores": [
+                  "Lilian Passos Scatalon",
+                  "Josiane Melchiori Pinheiro"
+                ]
+              },
+              {
+                "tipo": "apresentacao",
+                "horario": "11h00 às 11h10",
+                "titulo": "Uma parceria entre a academia e o movimento social pelos direitos das mulheres",
+                "autores": [
+                  "Rebeca Marini Silva",
+                  "Cintia da Silva Bulcão",
+                  "Eduarda Barragan da Silva",
+                  "Giovana da S. Bulcão",
+                  "Júlia de Araujo Pires",
+                  "Sophie Freire"
+                ],
+                "orientadores": [
+                  "Josiane Melchiori Pinheiro",
+                  "Tania Tait"
+                ]
+              },
+              {
+                "tipo": "apresentacao",
+                "horario": "11h10 às 11h20",
+                "titulo": "Sepse HUM",
+                "autores": [
+                  "Maria Eduarda de Mello Policante"
+                ],
+                "orientadores": [
+                  "Yandre Maldonado e Gomes da Costa"
+                ]
+              }
+            ]
+          },
+          {
+            "titulo": "Tarde",
+            "horario": "13h30 às 15h30",
+            "itens": [
+              {
+                "tipo": "apresentacao",
+                "horario": "13h30 às 13h40",
+                "titulo": "TuringLab",
+                "autores": [
+                  "Vinicius Reginaldo Ferrarini"
+                ],
+                "orientadores": [
+                  "Maurílio Martins Campano Junior"
+                ]
+              },
+              {
+                "tipo": "apresentacao",
+                "horario": "13h40 às 13h50",
+                "titulo": "Detecção de comportamentos motores característicos de Transtornos do Espectro Autista usando técnicas de Visão Computacional",
+                "autores": [
+                  "Lucas Alves de Lima"
+                ],
+                "orientadores": [
+                  "Marcelo de Gomensoro Malheiros"
+                ]
+              },
+              {
+                "tipo": "apresentacao",
+                "horario": "13h50 às 14h00",
+                "titulo": "Estudo e treinamento de uma LSTM para a classificação de regiões codantes em sequências de DNA considerando bases degeneradas",
+                "autores": [
+                  "Bruno Rafael Comin Scheffel"
+                ],
+                "orientadores": [
+                  "Josiane Melchiori Pinheiro"
+                ]
+              },
+              {
+                "tipo": "apresentacao",
+                "horario": "14h00 às 14h10",
+                "titulo": "Formulações de Programação Linear Inteira para o Problema de Roteamento de Veículos Cumulativo",
+                "autores": [
+                  "Lorenzo Henrique Zanetti"
+                ],
+                "orientadores": [
+                  "Mauro Henrique Mulati"
+                ]
+              },
+              {
+                "tipo": "apresentacao",
+                "horario": "14h10 às 14h20",
+                "titulo": "Análise e Avaliação de Mix Zones como Mecanismo de Privacidade de Redes Móveis em Ambientes Universitários",
+                "autores": [
+                  "Matheus Cenerini Jacomini"
+                ],
+                "orientadores": [
+                  "Alisson Renan Svaigen"
+                ]
+              },
+              {
+                "tipo": "apresentacao",
+                "horario": "14h20 às 14h30",
+                "titulo": "Analyzing the Design and Impact of Digital Serious Games in Digital Security",
+                "autores": [
+                  "Lucas de Oliveira Fratus"
+                ],
+                "orientadores": [
+                  "Alisson Renan Svaigen",
+                  "Felippe Fernandes da Silva"
+                ]
+              },
+              {
+                "tipo": "intervalo",
+                "horario": "14h30 às 14h40",
+                "titulo": "Intervalo"
+              },
+              {
+                "tipo": "apresentacao",
+                "horario": "14h40 às 14h50",
+                "titulo": "Mapeamento de boas práticas e ferramentas livres para a construção de datasets de imagens com foco em aprendizado supervisionado",
+                "autores": [
+                  "Victor Gabriel Leite da Costa"
+                ],
+                "orientadores": [
+                  "Marcelo de Gomensoro Malheiros"
+                ]
+              },
+              {
+                "tipo": "apresentacao",
+                "horario": "14h50 às 15h00",
+                "titulo": "Avaliação automática de redações por meio de aprendizado de máquina",
+                "autores": [
+                  "Pamela Camilo Chalegre"
+                ],
+                "orientadores": [
+                  "Valéria Delisandra Feltrim"
+                ]
+              },
+              {
+                "tipo": "apresentacao",
+                "horario": "15h00 às 15h10",
+                "titulo": "Avaliação Automática de Redações Utilizando Transformers",
+                "autores": [
+                  "Vitor da Rocha Machado"
+                ],
+                "orientadores": [
+                  "Valéria Delisandra Feltrim"
+                ]
+              },
+              {
+                "tipo": "apresentacao",
+                "horario": "15h10 às 15h20",
+                "titulo": "Predição do Mercado de Ações com Aprendizado de Máquina e Análise Técnica: Uma Revisão Sistemática",
+                "autores": [
+                  "Ana Paula Loureiro Crippa"
+                ],
+                "orientadores": [
+                  "Wagner Igarashi"
+                ]
+              },
+              {
+                "tipo": "apresentacao",
+                "horario": "15h20 às 15h30",
+                "titulo": "Avaliação Sistemática de Técnicas Clássicas e Baseadas em Aprendizado de Máquina para a Identificação e Contagem de Objetos Disjuntos em Imagens",
+                "autores": [
+                  "Caetano Vendrame Mantovani"
+                ],
+                "orientadores": [
+                  "Marcelo de Gomensoro Malheiros"
+                ]
+              }
+            ]
+          }
+        ]
       },
       {
         "titulo": "Celebração dos 35 anos do PET-Informática",
@@ -49,20 +325,21 @@
     ]
   },
   {
-    "data": "19/09",
-    "atividades": [
-      {
-        "titulo": "Aquecimento da Maratona de Programação",
-        "horario": "08h30 às 11h30",
-        "descricao": "Período de aquecimento e preparação das equipes para a competição.",
-        "cor": "magenta"
-      },
-      {
-        "titulo": "Competição oficial da Maratona de Programação",
-        "horario": "13h30 às 17h30",
-        "descricao": "Etapa oficial da Maratona de Programação do ConectaPET.",
-        "cor": "blue"
-      }
-    ]
-  }
+  "data": "19/09",
+  "atividades": [
+    {
+      "titulo": "Aquecimento da Maratona de Programação",
+      "horario": "08h30 às 11h30",
+      "descricao": "Antes da competição, as equipes terão um período de aquecimento para conhecer o ambiente da maratona, testar o sistema de submissões e se preparar para os desafios da etapa principal.",
+      "cor": "magenta"
+    },
+    {
+      "titulo": "Maratona de Programação",
+      "horario": "13h30 às 17h30",
+      "descricao": "Na Maratona de Programação, equipes de até três participantes terão algumas horas para enfrentar uma sequência de desafios envolvendo lógica, algoritmos e programação. Será preciso combinar raciocínio, estratégia e trabalho em equipe para resolver o maior número possível de problemas dentro do tempo da competição.",
+      "premiacao": "As três equipes com melhor desempenho serão premiadas ao final da competição.",
+      "cor": "blue"
+    }
+  ]
+}
 ]
