@@ -319,7 +319,7 @@
         "titulo": "Celebração dos 35 anos do PET-Informática",
         "horario": "18h30 às 19h30",
         "descricao": "Cerimônia comemorativa dos 35 anos do PET-Informática.",
-        "local": "C67 — Centro de Tecnologia",
+        "local": "Auditório do CTC (Centro de Tecnologia) — Bloco C67",
         "cor": "blue"
       }
     ]
@@ -332,7 +332,7 @@
       "horario": "08h30 às 11h30",
       "descricao": "Antes da competição, as equipes terão um período de aquecimento para conhecer o ambiente da maratona, testar o sistema de submissões e se preparar para os desafios da etapa principal.",
       "cor": "magenta",
-      "local": "C56 — Departamento de Informática"
+      "local": "Departamento de Informática - Bloco C56"
     },
     {
       "titulo": "Maratona de Programação",
@@ -340,7 +340,7 @@
       "descricao": "Na Maratona de Programação, equipes de até três participantes terão algumas horas para enfrentar uma sequência de desafios envolvendo lógica, algoritmos e programação. Será preciso combinar raciocínio, estratégia e trabalho em equipe para resolver o maior número possível de problemas dentro do tempo da competição.",
       "premiacao": "As três equipes com melhor desempenho serão premiadas ao final da competição.",
       "cor": "blue",
-      "local": "C56 — Departamento de Informática"
+      "local": "Departamento de Informática - Bloco C56"
     }
   ]
 }
