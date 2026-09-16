@@ -331,14 +331,16 @@
       "titulo": "Aquecimento da Maratona de Programação",
       "horario": "08h30 às 11h30",
       "descricao": "Antes da competição, as equipes terão um período de aquecimento para conhecer o ambiente da maratona, testar o sistema de submissões e se preparar para os desafios da etapa principal.",
-      "cor": "magenta"
+      "cor": "magenta",
+      "local": "C56 — Departamento de Informática"
     },
     {
       "titulo": "Maratona de Programação",
       "horario": "13h30 às 17h30",
       "descricao": "Na Maratona de Programação, equipes de até três participantes terão algumas horas para enfrentar uma sequência de desafios envolvendo lógica, algoritmos e programação. Será preciso combinar raciocínio, estratégia e trabalho em equipe para resolver o maior número possível de problemas dentro do tempo da competição.",
       "premiacao": "As três equipes com melhor desempenho serão premiadas ao final da competição.",
-      "cor": "blue"
+      "cor": "blue",
+      "local": "C56 — Departamento de Informática"
     }
   ]
 }
