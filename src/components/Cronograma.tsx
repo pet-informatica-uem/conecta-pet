@@ -128,7 +128,7 @@ function SessaoApresentacoes({
   sessao: SessaoCronograma;
 }) {
   return (
-    <details className="group border-y border-light-olive/70">
+    <details className="group border-t border-light-olive/70">
       <summary className="flex cursor-pointer list-none items-center justify-between gap-6 py-5 md:py-6 [&::-webkit-details-marker]:hidden">
         <div>
           <h4 className="font-heading text-xl font-black uppercase text-purple md:text-2xl">
